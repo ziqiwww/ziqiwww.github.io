@@ -213,6 +213,8 @@ h1 {
 .visitor-map-mobile .globe-widget object,
 .visitor-map-mobile .globe-widget embed {
   min-height: 0 !important;
+  max-width: 100vw !important;
+  overflow: auto;
 }
 
 .main-content {
@@ -469,6 +471,11 @@ h1 {
     width: 100%;
     max-width: 100%;
     margin: 0 0 1rem;
+    overflow-x: auto;
+  }
+
+  .visitor-map-mobile .globe-widget {
+    max-width: calc(100vw - 2rem);
   }
 }
 
