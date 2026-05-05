@@ -548,4 +548,16 @@ h1 {
     gap: 0.55rem;
   }
 
+  .split-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .split-main,
+  .split-meta {
+    white-space: normal;
+    text-align: left;
+  }
+
 }
