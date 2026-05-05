@@ -557,7 +557,15 @@ h1 {
   .split-main,
   .split-meta {
     white-space: normal;
+  }
+
+  .split-main {
     text-align: left;
+  }
+
+  .split-meta {
+    width: 100%;
+    text-align: right;
   }
 
 }
