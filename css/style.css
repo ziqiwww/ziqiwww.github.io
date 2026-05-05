@@ -384,6 +384,44 @@ h1 {
   padding-left: 1.15rem;
 }
 
+.split-list {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0;
+}
+
+.split-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.split-main {
+  margin: 0;
+  font-size: inherit;
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 400;
+  flex: 1 1 56%;
+  white-space: nowrap;
+}
+
+.split-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: 400;
+  text-align: right;
+  flex: 1 1 44%;
+  white-space: nowrap;
+}
+
 .news-panel h2 {
   margin: 0 0 0.7rem;
   font-size: 1.2rem;
@@ -509,4 +547,5 @@ h1 {
   .news-list {
     gap: 0.55rem;
   }
+
 }
