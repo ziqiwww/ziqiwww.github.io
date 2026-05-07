@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+.superpowers/
+.claude/
+__pycache__/
+*.pyc
+
+# Backups
+index-card-style.html
+css/style-card.css
+
+# Dev tools
+tools/
+papers/
+docs/
