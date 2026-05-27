@@ -156,6 +156,10 @@ body {
   font-weight: bold;
 }
 
+.work-desc {
+  font-weight: normal !important;
+}
+
 .split-table td:last-child {
   text-align: right;
   color: var(--muted);
@@ -301,7 +305,7 @@ body {
 
 .visitor-widget {
   max-width: 200px;
-  margin: 0 auto;
+  margin: 0 auto 0.8rem;
 }
 
 .visitor-widget img {
@@ -319,6 +323,7 @@ body {
   padding-top: 1rem;
   color: var(--light);
   font-size: 0.85rem;
+  text-align: center;
 }
 
 /* ── Links (global) ── */
